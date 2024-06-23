@@ -1,0 +1,40 @@
+/* Tablet */
+
+@media screen and (max-width:1140px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+/* Smartphone */
+
+@media screen and (max-width:480px) {
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        min-width: 100%;
+    }
+
+    .col:not(:first-of-type) {
+        margin-top: 50px;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+    }
+
+    .steps {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        padding: 3rem 1rem;
+    }
+
+}
